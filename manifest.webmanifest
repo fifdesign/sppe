@@ -1,10 +1,10 @@
 {
-  "name": "Pixel-Wrap",
-  "short_name": "Pixel-Wrap",
+  "name": "SPPE · Seamless Pixel Pattern Editor",
+  "short_name": "SPPE",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#121216",
+  "background_color": "#2b261f",
   "theme_color": "#121216",
   "icons": [
     {
@@ -17,5 +17,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "description": "Pixel-art editor for seamless textures and patterns"
 }

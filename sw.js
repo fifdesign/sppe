@@ -1,5 +1,5 @@
-// Pixel-Wrap offline cache: loads fresh from the server when online, falls back to the saved copy offline.
-const CACHE = 'pixelwrap-v19';
+// SPPE offline cache: loads fresh from the server when online, falls back to the saved copy offline.
+const CACHE = 'sppe-v1.0';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
